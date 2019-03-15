@@ -14,14 +14,14 @@
 
 
 ### 主要技术架构
-[flutter](https://docs.flutter.io/ "flutter") 优势：研发速率甚至高过WAP以及react native 缺陷：对全栈工程师的要求更高，需要略了解原生，有web开发经验甚佳。
-[django](https://www.djangoproject.com/ "django") 优势：有一套权限认证，xadmin的可视化管理后台，高拓展性，可根据源码自定义拓展组件，开发高效 劣势：市场上高质量的python工程师较少，技术层次不齐容易写出难以维护的代码。
-[djangorestframwork](https://www.django-rest-framework.org/ "djangorestframwork")优势：用于开发移动服务器端，高效且迅速，增删改查四个接口简单的业务逻辑依靠多继承一分钟即可编写完成。劣势：不支持微服务，io效率相对spring系列略低。
-[djangorestframwork-finer]( "djangorestframwork-finer") 在djangorestfranmwork的基础上，我们的团队编写了对leancloud的数据业务层的序列化器，以及model层的加固和高阅读化的一套框架，随着进一步开发框架逐渐完善，亦会开源。
-[leancloud](https://leancloud.cn "leancloud") 完成数据存储，及时通讯和分布式服务的托管，以及推送。
-[beecloud](https://beecloud.cn/ "beecloud") 集成支付宝支付，微信支付，本开源中含有我们编写完集成好的插件。
-[bugly](https://bugly.qq.com/v2/ "bugly") 启用bugly完成安卓端热更新。
-[mobshare](http://www.mob.com/ "mobshare")使用第三方mobshare集成分享功能，本开源中含有我们编写完集成好的插件。
+[flutter](https://docs.flutter.io/ "flutter") 优势：研发速率甚至高过WAP以及react native 缺陷：对全栈工程师的要求更高，需要略了解原生，有web开发经验甚佳。<br/>
+[django](https://www.djangoproject.com/ "django") 优势：有一套权限认证，xadmin的可视化管理后台，高拓展性，可根据源码自定义拓展组件，开发高效 劣势：市场上高质量的python工程师较少，技术层次不齐容易写出难以维护的代码。<br/>
+[djangorestframwork](https://www.django-rest-framework.org/ "djangorestframwork")优势：用于开发移动服务器端，高效且迅速，增删改查四个接口简单的业务逻辑依靠多继承一分钟即可编写完成。劣势：不支持微服务，io效率相对spring系列略低。<br/>
+[djangorestframwork-finer]( "djangorestframwork-finer") 在djangorestfranmwork的基础上，我们的团队编写了对leancloud的数据业务层的序列化器，以及model层的加固和高阅读化的一套框架，随着进一步开发框架逐渐完善，亦会开源。<br/>
+[leancloud](https://leancloud.cn "leancloud") 完成数据存储，及时通讯和分布式服务的托管，以及推送。<br/>
+[beecloud](https://beecloud.cn/ "beecloud") 集成支付宝支付，微信支付，本开源中含有我们编写完集成好的插件。<br/>
+[bugly](https://bugly.qq.com/v2/ "bugly") 启用bugly完成安卓端热更新。<br/>
+[mobshare](http://www.mob.com/ "mobshare")使用第三方mobshare集成分享功能，本开源中含有我们编写完集成好的插件。<br/>
 
 ------------
 
