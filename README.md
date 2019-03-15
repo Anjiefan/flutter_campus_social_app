@@ -1,6 +1,6 @@
-# flutter-云智校APP
-## 描述
-国内首家企业采用纯flutter技术栈研发的大型校园社交类APP，这是一款专属于大学生的APP，一个在此娱乐，学习，社交便可赚钱的平台，内测期间便已拥有2万忠实用户。
+# flutter-python-app
+## 云智校APP
+国内首家企业采用纯flutter技术栈研发的大型校园社交类APP，这是一款专属于大学生的APP，一个在此娱乐，学习，社交便可赚钱的平台，内测期间便已拥有2万忠实用户。目前1.2版本已经在安卓商店和苹果商店上架。
 
 
 
@@ -78,9 +78,9 @@
 **  图片缓存**<br/>
    [ cached_network_image: ^0.5.0  ](https://pub.dartlang.org/packages/cached_network_image)<br/>
  ** 支持网络，电话，短信和电子邮件方案,以及打开其他app**<br/>
-    [url_launcher: 4.0.3   ](https://pub.dartlang.org/packages/url_launcher#-readme-tab-)<br/>
+  [url_launcher: 4.0.3   ](https://pub.dartlang.org/packages/url_launcher#-readme-tab-)<br/>
  ** 选取多张图片**<br/>
-    [  multi_image_picker: ^2.4.11 ](https://pub.dartlang.org/packages/multi_image_picker)<br/>
+   [  multi_image_picker: ^2.4.11 ](https://pub.dartlang.org/packages/multi_image_picker)<br/>
 **  定位**<br/>
   [ amap_location:  ](https://pub.dartlang.org/packages/amap_location)<br/>
   **网络请求库**<br/>
@@ -92,24 +92,23 @@
 ** 获取存储地址**<br/>
    [   path: ^1.6.2:  ](https://pub.dartlang.org/packages/path)<br/>
  ** 权限管理，建议写一套原生的权限管理，此插件有漏洞**<br/>
-    [  simple_permissions ](https://pub.dartlang.org/packages/simple_permissions)<br/>
+   [  simple_permissions ](https://pub.dartlang.org/packages/simple_permissions)<br/>
  ** 相机**<br/>
-      [   camera: 0.2.9+1 ](https://pub.dartlang.org/packages/camera)<br/>
+  [   camera: 0.2.9+1 ](https://pub.dartlang.org/packages/camera)<br/>
  ** mvvm的状态管理**<br/>
    [  scoped_model: ](https://pub.dartlang.org/packages/scoped_model)<br/>
  ** 刷新样式**<br/>
-     [  progress_indicators: ^0.1.2 ](https://pub.dartlang.org/packages/progress_indicators)<br/>
+   [  progress_indicators: ^0.1.2 ](https://pub.dartlang.org/packages/progress_indicators)<br/>
   **获取文件位置**<br/>
-    [  path_provider: ](https://pub.dartlang.org/packages/path_provider)<br/>
+   [  path_provider: ](https://pub.dartlang.org/packages/path_provider)<br/>
 **  录音**<br/>
    [  audio_recorder: ](https://pub.dartlang.org/packages/audio_recorder)<br/>
 **  滑动删除动画**<br/>
-    [  flutter_slidable: ](https://pub.dartlang.org/packages/flutter_slidable)<br/>
+   [  flutter_slidable: ](https://pub.dartlang.org/packages/flutter_slidable)<br/>
 **  播放音频**<br/>
-    [  audioplayer: ](https://pub.dartlang.org/packages/audioplayer)<br/>
+   [  audioplayer: ](https://pub.dartlang.org/packages/audioplayer)<br/>
 **  播放视频**<br/>
    [   video_player: 0.7.2: ](https://pub.dartlang.org/packages/video_player)<br/>
-   
 
 ------------
 
