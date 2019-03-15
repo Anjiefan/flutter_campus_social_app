@@ -27,7 +27,7 @@
 
 
 ### APP视频展示
-[![ScreenShot](https://www.finerit.com/media/zhanshi.png)](https://ugcbsy.qq.com/uwMROfz0r5zIYaQXGdGnC2dfDmZ5O1zlddyT0ZvrRdAm2x5e/i0849m96hkd.mp4?sdtfrom=v1010&guid=dd8e783680cdbc13b334388f06e0d895&vkey=CC19A6ADF55246150D9169DE053F17C3032D9B9396973A32D85062FA0D04F8C02F18E45AD6E855A6CDFF68508BE0B8592B60FCF22E522C8496AD478460FEB765D7DEC57F25D553AE3A635BBE8985DF2D05CCE4E3B83E4878394CFE95E0F14D9E3D444063E486FEDF2448314EA99BFA23106141D2C76DB7BF)
+[![ScreenShot](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)](http://lc-aveFaAUx.cn-n1.lcfile.com/3487931ee9e780d847c4.mp4)
 
 ------------
 
@@ -36,7 +36,7 @@
 ##### android下载地址
 [![](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)
 ##### ios下载地址
-[云智校APP官网](https://app.finerit.com/index.html "云智校APP官网")
+[云智校APP官网](https://app.finerit.com/ "云智校APP官网")
 
 ------------
 
