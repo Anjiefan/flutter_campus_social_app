@@ -66,50 +66,34 @@
 
 
 ### flutter主要的第三方库
- **图片获取，视频获取**<br/>
- [image_picker_saver: ^0.1.0](https://pub.dartlang.org/packages/image_picker_saver)<br/>
-**webview插件**<br/>
- [flutter_webview_plugin: ^0.3.0+2 ](https://pub.dartlang.org/packages/flutter_webview_plugin)<br/>
-**视频样式插件**<br/>
- [ chewie: 0.8.0  ](https://pub.dartlang.org/packages/chewie)<br/>
- **flutter异步**<br/>
-  [  async: ^2.0.8](https://pub.dartlang.org/packages/async)<br/>
- **上拉刷新，下拉刷新**<br/>
-   [  flutter_easyrefresh: ^1.0.7 ](https://pub.dartlang.org/packages/flutter_easyrefresh)<br/>
-**图片缓存**<br/>
-   [ cached_network_image: ^0.5.0  ](https://pub.dartlang.org/packages/cached_network_image)<br/>
- **支持网络，电话，短信和电子邮件方案,以及打开其他app**<br/>
-  [url_launcher: 4.0.3   ](https://pub.dartlang.org/packages/url_launcher#-readme-tab-)<br/>
- **选取多张图片**<br/>
-   [  multi_image_picker: ^2.4.11 ](https://pub.dartlang.org/packages/multi_image_picker)<br/>
-**定位**<br/>
-  [ amap_location:  ](https://pub.dartlang.org/packages/amap_location)<br/>
-  **网络请求库**<br/>
-  [   dio: 1.0.13 ](https://pub.dartlang.org/packages/dio)<br/>
-**原生toast**<br/>
-  [   fluttertoast:  ](https://pub.dartlang.org/packages/fluttertoast)<br/>
-**获取存储卡**<br/>
- [   shared_preferences: ^0.4.3 ](https://pub.dartlang.org/packages/shared_preferences)<br/>
-**获取存储地址**<br/>
-   [   path: ^1.6.2:  ](https://pub.dartlang.org/packages/path)<br/>
- **权限管理，建议写一套原生的权限管理，此插件有漏洞**<br/>
-   [  simple_permissions ](https://pub.dartlang.org/packages/simple_permissions)<br/>
- **相机**<br/>
-  [   camera: 0.2.9+1 ](https://pub.dartlang.org/packages/camera)<br/>
- **mvvm的状态管理**<br/>
-   [  scoped_model: ](https://pub.dartlang.org/packages/scoped_model)<br/>
- **刷新样式**<br/>
-   [  progress_indicators: ^0.1.2 ](https://pub.dartlang.org/packages/progress_indicators)<br/>
-  **获取文件位置**<br/>
-   [  path_provider: ](https://pub.dartlang.org/packages/path_provider)<br/>
-**录音**<br/>
-   [  audio_recorder: ](https://pub.dartlang.org/packages/audio_recorder)<br/>
-**滑动删除动画**<br/>
-   [  flutter_slidable: ](https://pub.dartlang.org/packages/flutter_slidable)<br/>
-**播放音频**<br/>
-   [  audioplayer: ](https://pub.dartlang.org/packages/audioplayer)<br/>
-**播放视频**<br/>
-   [   video_player: 0.7.2: ](https://pub.dartlang.org/packages/video_player)<br/>
+
+
+| 第三方库 | 用途 |
+|--------|-----|
+|[image_picker_saver: ^0.1.0](https://pub.dartlang.org/packages/image_picker_saver)| 图片获取，视频获取 |
+|  [flutter_webview_plugin: ^0.3.0+2 ](https://pub.dartlang.org/packages/flutter_webview_plugin) | webview插件|
+|[ chewie: 0.8.0  ](https://pub.dartlang.org/packages/chewie)| 视频样式插件 |
+|  [  async: ^2.0.8](https://pub.dartlang.org/packages/async) |flutter异步 |
+|[  flutter_easyrefresh: ^1.0.7 ](https://pub.dartlang.org/packages/flutter_easyrefresh)| 上拉刷新，下拉刷新|
+|[ cached_network_image: ^0.5.0  ](https://pub.dartlang.org/packages/cached_network_image)|图片缓存 |
+| [url_launcher: 4.0.3   ](https://pub.dartlang.org/packages/url_launcher#-readme-tab-) | 支持网络，电话，短信和电子邮件方案,以及打开其他app|
+| [  multi_image_picker: ^2.4.11 ](https://pub.dartlang.org/packages/multi_image_picker) | 选取多张图片|
+| [ amap_location:  ](https://pub.dartlang.org/packages/amap_location)|定位
+|[   dio: 1.0.13 ](https://pub.dartlang.org/packages/dio) | 网络请求库 |
+| [   fluttertoast:  ](https://pub.dartlang.org/packages/fluttertoast)|原生toast|
+|[   shared_preferences: ^0.4.3 ](https://pub.dartlang.org/packages/shared_preferences) | 获取存储卡 |
+|  [   path: ^1.6.2:  ](https://pub.dartlang.org/packages/path)| 获取存储地址|
+| [  simple_permissions ](https://pub.dartlang.org/packages/simple_permissions)| 权限管理，建议写一套原生的权限管理，此插件有漏洞
+|[   camera: 0.2.9+1 ](https://pub.dartlang.org/packages/camera)|相机
+| [  scoped_model: ](https://pub.dartlang.org/packages/scoped_model) | mvvm的状态管理 
+|[  progress_indicators: ^0.1.2 ](https://pub.dartlang.org/packages/progress_indicators)|刷新样式
+|[  path_provider: ](https://pub.dartlang.org/packages/path_provider) | 获取文件位置
+|[  audio_recorder: ](https://pub.dartlang.org/packages/audio_recorder)|录音
+|[  flutter_slidable: ](https://pub.dartlang.org/packages/flutter_slidable)|滑动删除动画
+|[  audioplayer: ](https://pub.dartlang.org/packages/audioplayer)|播放音频
+| [   video_player: 0.7.2: ](https://pub.dartlang.org/packages/video_player)|播放视频
+
+
 
 ------------
 
