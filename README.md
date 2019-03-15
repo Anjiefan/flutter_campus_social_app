@@ -1,2 +1,5 @@
-# flutter_campus_social_app
-使用flutter开发的校园社交软件，国内极少数采用flutter进行生产开发的企业团队。目前1.0版本已经竣工正式上线。
+# flutter-云智校APP
+### APP展示
+<video id="video" controls="" preload="none" poster="https://www.finerit.com/media/1.png">
+      <source id="mp4" src="https://www.finerit.com/media/advertise.mp4" type="video/mp4">
+      </video>
