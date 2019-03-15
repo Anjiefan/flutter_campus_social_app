@@ -1,0 +1,1 @@
+enum CommentType{received, written}

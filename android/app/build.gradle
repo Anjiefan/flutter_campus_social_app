@@ -1,0 +1,191 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+apply plugin: 'com.mob.sdk'
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+MobSDK {
+    appKey "2a2d128faa584"
+    appSecret "4c2e0b909668f7869a2a7e2477419d26"
+
+    ShareSDK {
+        //平台配置信息
+        devInfo {
+            Wechat {
+                appId "wx58fbd34964417acc"
+                appSecret "c2d771775f6435471a47007a315edcc1"
+                shareByAppClient true
+            }
+
+            WechatMoments {
+                appId "wx58fbd34964417acc"
+                appSecret "c2d771775f6435471a47007a315edcc1"
+                shareByAppClient true
+            }
+
+            QQ {
+                appId "101550785"
+                appKey "04b6a0568d838310fbb49104ff654828"
+                shareByAppClient true
+            }
+
+            QZone {
+                appId "101550785"
+                appKey "04b6a0568d838310fbb49104ff654828"
+                shareByAppClient true
+            }
+
+            SinaWeibo {
+                appKey "3014452965"
+                appSecret "920dd25723395fff5ac463993f18918e"
+                callbackUri "https://daike.finerit.com/"
+                shareByAppClient true
+            }
+        }
+    }
+
+}
+
+android {
+    compileSdkVersion 28
+    //为了解决部分第三方库重复打包了META-INF的问题
+    packagingOptions{
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+        abortOnError false
+    }
+
+    defaultConfig {
+        applicationId "com.finerit.campus"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 4
+        versionName "1.2.1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        manifestPlaceholders = [
+                AMAP_KEY : "ff9cbceae023ff1ce8d923919490508a", /// 高德地图key
+        ]
+    }
+
+    signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            useProguard false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+repositories {
+    flatDir {
+        dirs 'libs' //this way we can find the .aar file in libs folder
+    }
+}
+
+dependencies {
+    implementation 'org.apache.httpcomponents:httpcore:4.4.2'
+    //BeeCloud
+    implementation project(':sdk')
+    implementation 'org.apache.httpcomponents:httpcore:4.4.2'
+    implementation 'androidx.media:media:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.fragment:fragment:1.1.0-alpha04'
+    implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'
+    implementation 'androidx.legacy:legacy-support-core-utils:1.0.0'
+    implementation 'androidx.loader:loader:1.0.0'
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.0.0'
+    implementation 'androidx.drawerlayout:drawerlayout:1.0.0'
+    implementation 'androidx.slidingpanelayout:slidingpanelayout:1.0.0'
+    implementation 'androidx.customview:customview:1.0.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
+    implementation 'androidx.asynclayoutinflater:asynclayoutinflater:1.0.0'
+    implementation 'androidx.core:core:1.0.1'
+    implementation 'androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01'
+    implementation 'androidx.collection:collection:1.0.0'
+    implementation 'androidx.documentfile:documentfile:1.0.0'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+    implementation 'androidx.print:print:1.0.0'
+    implementation 'androidx.interpolator:interpolator:1.0.0'
+    implementation 'androidx.cursoradapter:cursoradapter:1.0.0'
+    implementation 'androidx.annotation:annotation:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime:2.1.0-alpha02'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha02'
+    implementation 'androidx.lifecycle:lifecycle-livedata-core:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-common:2.0.0'
+    implementation 'androidx.arch.core:core-runtime:2.0.0'
+    implementation 'androidx.arch.core:core-common:2.0.0'
+    implementation 'androidx.vectordrawable:vectordrawable-animated:1.0.0-rc01'
+    implementation 'androidx.vectordrawable:vectordrawable:1.0.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha02'
+    //LeanCloud
+    // LeanCloud 基础包
+        compile 'cn.leancloud.android:avoscloud-sdk:v4.7.9'
+    // 推送与实时聊天需要的包
+        compile 'cn.leancloud.android:avoscloud-push:v4.7.9'
+    //    compile('cn.leancloud.android:avoscloud-mixpush:v4.7.1@aar') {
+    //        transitive = true
+    //        exclude group: 'cn.leancloud.android', module: 'hmsagent'
+    //    }
+    //tencent bugly
+    //    compile 'com.tencent.bugly:crashreport:latest.release'
+    compile 'com.tencent.bugly:crashreport_upgrade:latest.release'
+    implementation 'com.lovedise:permissiongen:0.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.0-alpha4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4'
+//    implementation files('libs/avoscloud-feedback-4.7.9.jar')
+//    compile files('libs/avoscloud-push-4.7.9.jar')
+//    compile files('libs/avoscloud-sdk-4.7.9.jar')
+    compile(name:'avoscloud-feedback', ext:'aar')//xxx为lib名
+}

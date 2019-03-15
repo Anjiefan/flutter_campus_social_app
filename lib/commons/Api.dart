@@ -1,0 +1,43 @@
+class Api{
+
+  static const String BASE_URL = "";
+  static const String LOGIN_URL = "/";
+  static const String REGISTER_URL = "/";
+  static const String REGISTER_CODE_URL = "/";
+  static const String LOGIN_CODE_URL = "/";
+  static const String REGISTER_INIT_PASSWORD = "/";
+  static const String REGISTER_NICKNAME_AVATAR = "/";
+  static const String USER_INFO = "/";
+  static const String POPUP_URL = "/";
+  static const String WITHDRAW_URL = "/";
+  static const String DISPLAY_MONEY_URL = "/";
+  static const String UPDATE_USER_INSTALLATION_ID = "/";
+  static const String VALIDATE_PHONE_URL = "/";
+  static const String BBS_BASE = "/";
+  static const String BBS_LIKE_STATUS='/';
+  static const String BBS_SEARCH="/";
+  static const String BBS_TOP_SEARCH='/';
+  static const String BBS_TOP_TEN_STATUS='/';
+  static const String BBS_STATUS_LIKE = "/";
+  static const String GET_SESSION_ID='/';
+  static const String COMMENTS='/';
+  static const String COMMENTS_LIKE='/';
+  static const String AUDITS_VERIFY = '/';
+  static const String MAKE_FRIENDS='/';
+  static const String FRENDS_NUM_INFO='/';
+  static const String RANKING_INFO='/';
+  static const String AWARD_INFO='/';
+  static const String MESSAGE_COMMENT_ME='/';
+  static const String MESSAGE_LIKE_ME='/';
+  static const String TASK_INFO='/';
+  static const String INVITATION='/';
+  static const String SHARE='/';
+  static const String IFFRIEND='/';
+  static const String PHONE_SEARCH='/';
+  static const String TASK_TEN_PEPOLE_INVITE="/";
+  static const String PAYMENT_INFO='/';
+  static const String DISLIKE_STATUS="/";
+  static const String DISLIKE_STATUS_TYPE="/";
+  static const String REPORTS='/';
+  static const String DISLIKE_USER='/';
+}
