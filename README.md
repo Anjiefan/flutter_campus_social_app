@@ -68,7 +68,7 @@
  **图片获取，视频获取**<br/>
  [image_picker_saver: ^0.1.0](https://pub.dartlang.org/packages/image_picker_saver)<br/>
 **  webview插件**<br/>
- [flutter_webview_plugin: ^0.3.0+2 ]<br/>(https://pub.dartlang.org/packages/flutter_webview_plugin)<br/>
+ [flutter_webview_plugin: ^0.3.0+2 ](https://pub.dartlang.org/packages/flutter_webview_plugin)<br/>
 **视频样式插件**<br/>
  [ chewie: 0.8.0  ](https://pub.dartlang.org/packages/chewie)<br/>
  ** flutter异步**<br/>
@@ -76,7 +76,7 @@
  ** 上拉刷新，下拉刷新**<br/>
    [  flutter_easyrefresh: ^1.0.7 ](https://pub.dartlang.org/packages/flutter_easyrefresh)<br/>
 **  图片缓存**<br/>
-   [ cached_network_image: ^0.5.0  ]<br/>(https://pub.dartlang.org/packages/cached_network_image)<br/>
+   [ cached_network_image: ^0.5.0  ](https://pub.dartlang.org/packages/cached_network_image)<br/>
  ** 支持网络，电话，短信和电子邮件方案,以及打开其他app**<br/>
     [url_launcher: 4.0.3   ](https://pub.dartlang.org/packages/url_launcher#-readme-tab-)<br/>
  ** 选取多张图片**<br/>
