@@ -34,6 +34,7 @@
 
 ### APP下载链接
 ##### android下载地址
+[![](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)
 ##### ios下载地址
 [云智校APP官网](https://app.finerit.com/index.html "云智校APP官网")
 
