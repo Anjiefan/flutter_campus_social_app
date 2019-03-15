@@ -27,7 +27,7 @@
 
 
 ### APP视频展示
-[![ScreenShot](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)](http://lc-aveFaAUx.cn-n1.lcfile.com/3487931ee9e780d847c4.mp4)
+[![ScreenShot](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/shiping.png?raw=true)](http://lc-aveFaAUx.cn-n1.lcfile.com/3487931ee9e780d847c4.mp4)
 
 ------------
 
