@@ -1,7 +1,7 @@
 Language: [English](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/README-en.md) | [中文简体](https://github.com/Anjiefan/flutter_campus_social_app/edit/master/README.md)
 # flutter-python-app
 ## 云智校APP
-国内首家企业采用纯flutter技术栈研发的大型校园社交类APP，这是一款专属于大学生的APP，一个在此娱乐，学习，社交便可赚钱的平台，内测期间便已拥有2万忠实用户。目前1.2版本已经在安卓商店和苹果商店上架。
+国内首家企业采用纯flutter技术栈研发的大型校园社交类APP，这是一款专属于大学生的APP，一个在此娱乐，学习，社交便可赚钱的平台，内测期间便已拥有2万忠实用户。目前1.2版本已经在安卓商店，苹果尚在审核阶段由于安卓上线有不少漏洞修订，苹果可能会晚点上线。
 
 ------------
 
