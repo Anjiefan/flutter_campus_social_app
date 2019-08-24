@@ -1,6 +1,6 @@
 # flutter-python-app
-## 云智校APP
-China's first enterprise uses a large-scale campus social app developed by pure flutter technology stack. This is an APP for college students. It is a platform for making entertainment, learning and socializing. It has 20,000 loyalty during the beta period. user. The current 1.2 version is available in the Android Store and Apple Store.
+## 云智校APP 3.0
+Cloud smart school app is the first large-scale campus trade and community app developed by a domestic enterprise using flutter technology stack. Cloud smart school is a software with the core product concept of providing part-time tasks to college students, promoting independent trade of campus students, reducing daily expenses of students, and helping to collect and provide income channels for students.
 
 ------------
 
@@ -105,15 +105,25 @@ China's first enterprise uses a large-scale campus social app developed by pure 
 [![](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/qqqun.jpg?raw=true)](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/qqqun.jpg?raw=true)
 
 ------------
-### Products to be released in version 2.0 in June
-1.Real-name instant messaging system<br/>
-2.Anonymous matching dating system<br/>
-3.Relying on big data and intelligent crawling knowledge resources and learning circles shared by high-quality high-quality students nationwide<br/>
+### Version 4.0 will be released in October
+1. The bottom layer completes the chain on the alliance chain.
+
+2. Integrated multi-platform part-time job.
+
+3. Equal business cooperation through alliance chain and multiple platforms.
+
+4. Complete the cooperation of part-time job module optimization.
 
 
 ### Company
 大庆市凡尔网络科技有限责任公司<br/>
-The idea: use technology to subvert civilization and use technology to change the world.<br/>
+Company vision: to improve the human capacity of the public, to give freelancers creative space.
+
+Company mission: to help users save costs, increase user income, provide diversified channels for individual users, and serve ordinary users as the initial mission of the enterprise; To help small and medium-sized enterprises and individual entrepreneurs to integrate user resources, technical resources, human resources and other resources for the enterprise medium-term mission; The ultimate mission of the enterprise is to enhance social innovation power, social labor productivity and mass life happiness index.
+
+Company core values: change life with technology, and subvert the future with technology.
+
+Daqing faner network technology co. LTD
 email:finerit@163.com<br/>
 Business cooperation qq:66064540<br/>
 
