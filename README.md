@@ -6,7 +6,7 @@ Language: [English](https://github.com/Anjiefan/flutter_campus_social_app/blob/m
 ------------
 
 ### APP3.0版本视频展示
-[![Watch the video](https://www.finerit.com/media/yunzhixiao.jpg)](http://www.finerit.com/media/yunzhixiao.mp4)
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://www.finerit.com/media/yunzhixiao.mp4)
 
 ------------
 
