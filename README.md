@@ -5,6 +5,11 @@ Language: [English](https://github.com/Anjiefan/flutter_campus_social_app/blob/m
 
 ------------
 
+### APP 3.0 代码仓库
+[云智校APP 3.0 代码仓库](https://github.com/Anjiefan/flutter_yun_campus "云智校APP 3.0 代码仓库")
+
+------------
+
 ### 编程语言
 [Dart](https://www.dartlang.org/dart-2 "Dart")    flutter研发的基础语言<br/>
 [Python](https://www.python.org/downloads/release/python-366/ "Python")  完成APP服务器端研发<br/>
