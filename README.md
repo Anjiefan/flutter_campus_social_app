@@ -1,18 +1,17 @@
 Language: [English](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/README-en.md) | [中文简体](https://github.com/Anjiefan/flutter_campus_social_app/edit/master/README.md)
 # flutter-python-app
-## 云智校APP
-国内首家企业采用纯flutter技术栈研发的大型校园社交类APP，这是一款专属于大学生的APP，一个在此娱乐，学习，社交便可赚钱的平台，内测期间便已拥有2万忠实用户。目前1.2版本已经在安卓商店，苹果尚在审核阶段由于安卓上线有不少漏洞修订，苹果可能会晚点上线。
+## 云智校APP 3.0
+云智校app是国内首家企业采用纯flutter技术栈研发的大型校园贸易、社区类APP，云智校是一款以提供给大学生兼职任务，促进校园学生自主贸易，降低学生日常花销，帮助收集及提供学生收入渠道为核心产品理念的一款软件。
 
 ------------
 
 ### 编程语言
-[Dart](https://www.dartlang.org/dart-2 "Dart")	flutter研发的基础语言<br/>
+[Dart](https://www.dartlang.org/dart-2 "Dart")    flutter研发的基础语言<br/>
 [Python](https://www.python.org/downloads/release/python-366/ "Python")  完成APP服务器端研发<br/>
 [Object-C](https://developer.apple.com/documentation/objectivec "Object-C") 编写例如推送，支付等部分原生插件<br/>
 [Java](https://www.oracle.com/java/ "Java") 编写例如推送，支付等部分原生插件<br/>
 
 ------------
-
 
 ### 主要技术架构
 [flutter](https://docs.flutter.io/ "flutter") 优势：研发速率甚至高过WAP以及react native 缺陷：对全栈工程师的要求更高，需要略了解原生，有web开发经验甚佳。<br/>
@@ -26,18 +25,18 @@ Language: [English](https://github.com/Anjiefan/flutter_campus_social_app/blob/m
 
 ------------
 
-
-### APP视频展示
-[![ScreenShot](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/shiping.png?raw=true)](http://lc-aveFaAUx.cn-n1.lcfile.com/3487931ee9e780d847c4.mp4)
+### APP官网
+[云智校APP](https://app.finerit.com/ "云智校APP")
 
 ------------
-
 
 ### APP下载链接
 ##### android下载地址
 [![](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)
 ##### ios下载地址
-[云智校APP官网](https://app.finerit.com/ "云智校APP官网")
+[![](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)
+
+
 
 ------------
 
@@ -102,19 +101,22 @@ Language: [English](https://github.com/Anjiefan/flutter_campus_social_app/blob/m
 ### 踩坑总结
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;flutter架构能满足我们的基本需求，而且开发效率迅速，开发的过程中编译环境出现的问题算是层出不穷，其中安卓端面临着这种插件版本不兼容的问题，最终我们采取的解决方案是升级到androidx，而ios的编译问题也同样，采取migrate swift至统一版本。其他大大小小的问题，google也都有解决方案，总体上来说没有困扰很久的问题，利用flutter开发，让我们在3个月内完成了我们预算6-9个月原生开发完成的工程（甚至多余的时间我们还完成了测试和调优）。
 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另外很多填过的小坑，因为赶工期我们也没有多做记录，对flutter、python、go研发有兴趣的话可以加入我们的群，一起交流，一起成长，另外打个广告，随着我们公司的逐步扩张，预计19年7月-9月份招收一批flutter开发人员，公司成员普遍为90后高校技术创业者，有合作的兴趣可以长期关注我们。<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;另外很多填过的小坑，因为赶工期我们也没有多做记录，对flutter、python、go研发有兴趣的话可以加入我们的群，一起交流，一起成长，另外打个广告，随着我们公司的逐步扩张，预计20年招收一批flutter开发人员，公司成员普遍为90后高校技术创业者，有合作的兴趣可以长期关注我们。<br/>
 [![](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/qqqun.jpg?raw=true)](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/qqqun.jpg?raw=true)
 
 ------------
-### 6月份2.0版本将推出的产品
-1.实名及时通讯系统<br/>
-2.匿名匹配交友系统<br/>
-3.依赖于大数据和智能爬取的知识资源及全国优质高材生共享的学习圈<br/>
-
+### 10月份4.0版本将推出的产品
+1.底层完成联盟链上链。<br/>
+2.集成多平台兼职任务。<br/>
+3.通过联盟链和多平台进行平等商业合作。<br/>
+4.完成兼职模块优化合作。<br/>
 
 ### 企业
+公司愿景：提升大众人力产能，给予自由职业者创作空间。<br/>
+公司使命：以从用户出发，帮助用户节省开销，提高用户收入，提供个体用户多元化的渠道，为服务普通用户的企业初期使命；以帮助中小型企业及个体创业者进行用户资源、技术资源、人脉资源等的整合为企业中期使命；以提升社会创新力量、社会劳动生产力、大众生活幸福指数为企业最终使命。<br/>
+公司核心价值观：用技术改变生活，用科技颠覆未来。<br/>
 大庆市凡尔网络科技有限责任公司<br/>
-理念：利用科技颠覆文明，利用科技改变世界。<br/>
+
 email:finerit@163.com<br/>
 商业合作联系qq:66064540<br/>
 
