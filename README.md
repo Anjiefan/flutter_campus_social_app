@@ -34,7 +34,7 @@ Language: [English](https://github.com/Anjiefan/flutter_campus_social_app/blob/m
 ##### android下载地址
 [![](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)
 ##### ios下载地址
-[![](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)
+[![](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/ios.png?raw=true)](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/ios.png?raw=true)
 
 
 
