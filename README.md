@@ -5,6 +5,13 @@ Language: [English](https://github.com/Anjiefan/flutter_campus_social_app/blob/m
 
 ------------
 
+### APP3.0版本视频展示
+<video src="http://www.finerit.com/media/yunzhixiao.mp4" controls="controls">
+</video>
+
+------------
+
+
 ### APP 3.0 代码仓库
 [云智校APP 3.0 代码仓库](https://github.com/Anjiefan/flutter_yun_campus "云智校APP 3.0 代码仓库")
 
