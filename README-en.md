@@ -4,6 +4,11 @@ Cloud smart school app is the first large-scale campus trade and community app d
 
 ------------
 
+### APP 3.0 code repository
+[云智校APP 3.0 repository](https://github.com/Anjiefan/flutter_yun_campus "智校APP 3.0repository")
+
+------------
+
 ### Programming language
 [Dart](https://www.dartlang.org/dart-2 "Dart")	The basic language developed by flutter<br/>
 [Python](https://www.python.org/downloads/release/python-366/ "Python")  Complete APP server development<br/>
