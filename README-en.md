@@ -23,22 +23,24 @@ Cloud smart school app is the first large-scale campus trade and community app d
 [bugly](https://bugly.qq.com/v2/ "bugly") Enable bugly to complete the Android side hot update.<br/>
 [mobshare](http://www.mob.com/ "mobshare")Using a third-party mobshare integration sharing feature, this open source contains the integrated plugin we have written.<br/>
 
-------------
-
-
-### APP video display
-[![ScreenShot](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/shiping.png?raw=true)](http://lc-aveFaAUx.cn-n1.lcfile.com/3487931ee9e780d847c4.mp4)
 
 ------------
 
+### APP Website
+[云智校APP](https://app.finerit.com/ "云智校APP")
 
-### APP download link
-##### Android download address
+------------
+
+### APP Download 
+##### android Download
 [![](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/android.png?raw=true)
-##### Ios download address
-[云智校APP Official website](https://app.finerit.com/ "云智校APP Official website")
+##### ios Download
+[![](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/ios1.png?raw=true)](https://github.com/Anjiefan/flutter_campus_social_app/blob/master/ios1.png?raw=true)
+
+
 
 ------------
+
 
 ### flutter Coding architecture
 |--apps Data layer and view layer of each business app, using componentized front-end engineering ideas, using mvvm design pattern<br/>
